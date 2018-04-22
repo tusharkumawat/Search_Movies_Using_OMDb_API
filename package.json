@@ -1,5 +1,19 @@
 {
-  "name": "",
-  "version": "",
-  "description": "JavaScript/jQuery app that fetches movie data from the OMDb API"
+  "name": "omdbproject",
+  "description": "JavaScript/jQuery app that fetches movie data from the OMDb API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tusharkumawat/Search_Movies_Using_OMDb_API.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tusharkumawat/Search_Movies_Using_OMDb_API/issues"
+  },
+  "homepage": "https://github.com/tusharkumawat/Search_Movies_Using_OMDb_API#readme"
 }
