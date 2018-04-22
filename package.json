@@ -2,7 +2,7 @@
   "name": "omdbproject",
   "description": "JavaScript/jQuery app that fetches movie data from the OMDb API",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
