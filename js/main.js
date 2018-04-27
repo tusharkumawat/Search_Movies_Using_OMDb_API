@@ -6,7 +6,7 @@ $(document).ready(() => {
  		getMovies(searchText,att);
 }
 	if ($("#y").prop("checked")) {
-		var att="y";
+		var att="i";
    		getMovies(searchText,att);
 }	
     
@@ -16,7 +16,7 @@ $(document).ready(() => {
 
 function getMovies(searchText,att){
 	
-  axios.get('http://www.omdbapi.com?apikey=9f5feec7&'+att+'='+searchText+'&s='+searchText)
+  axios.get('http://www.omdbapi.com?apikey=9f5feec7&'+att+'='+searchText)
     .then((response) => {
       let movies = response.data.Search;
       let output = '';
